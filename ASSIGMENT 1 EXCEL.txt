@@ -1,0 +1,80 @@
+ASSIGNMENT - 1 (EXCEL)
+
+1. What do you mean by cells in an excel sheet?
+ANS- In an Excel sheet, cells refer to the individual rectangular boxes that are formed by the intersection of a row and a column. 
+      Each cell has a unique address, which is identified by its column letter and row number, such as A1, B2, C3, and so on.
+     Cells are the basic building blocks of an Excel worksheet and can contain a wide range of data types, including text, numbers, dates, formulas, and functions.
+     We can perform various operations on cells, such as formatting, merging, splitting, and aligning, to make the data more readable and easier to understand.
+     Cells can also be used to create charts, graphs, and tables, and to perform various mathematical and statistical calculations.
+
+2. How can you restrict someone from copying a cell from your worksheet?
+Ans- We can restrict someone from copying a cell from our worksheet in Excel by following these steps:
+
+a) Select the cell or cells that we want to protect from copying.
+b) Right-click on the selected cell(s) and choose "Format Cells" from the drop-down menu.
+c) In the Format Cells dialog box, go to the Protection tab.
+d) Check the box next to "Locked" to lock the selected cell(s).
+e) Click OK to close the Format Cells dialog box.
+f) Now go to the Review tab in the Excel ribbon, and click on "Protect Sheet".
+g) In the Protect Sheet dialog box, check the box next to "Protect worksheet and contents of locked cells".
+h) Set a password to protect the sheet, if required.
+i) Click OK to close the Protect Sheet dialog box.
+
+After we have completed these steps, the selected cell(s) will be protected and cannot be copied or edited without entering the password we set during the sheet protection process. 
+
+
+3. How to move or copy the worksheet into another workbook?
+Ans- To move or copy a worksheet into another workbook in Excel, follow these steps:
+
+a) Open both the source workbook (the workbook that contains the worksheet we want to move or copy) and the destination workbook (the workbook where we want to move or copy the worksheet to).
+b) Go to the source workbook and right-click on the worksheet tab that we want to move or copy.
+c) Select either "Move or Copy..." from the context menu that appears.
+d) In the Move or Copy dialog box, select the destination workbook from the "To book" drop-down menu.
+e) Choose whether we want to create a copy of the worksheet or move it to the destination workbook.
+f) If we selected "Create a copy", choose where we want to place the copy within the destination workbook from the "Before sheet" drop-down menu.
+g) Click OK to close the dialog box.
+h) If we chose to move the worksheet, it will be removed from the source workbook and added to the destination workbook. If we chose to copy the worksheet, a copy of the worksheet will be added to the destination workbook.
+i) Save the changes to both workbooks.
+
+
+4. Which key is used as a shortcut for opening a new window document?
+ans- "Ctrl + N"
+
+
+5. What are the things that we can notice after opening the Excel interface?
+ans- After opening the Excel interface, we will typically notice the following elements:
+
+Title Bar: At the very top of the Excel window, the title bar displays the name of the workbook we are currently working on.
+
+Ribbon: Below the title bar, we will see the Ribbon. The Ribbon is a collection of tabs, each of which contains various groups of commands organized by category.
+
+Quick Access Toolbar: The Quick Access Toolbar is a customizable toolbar that typically appears above the Ribbon. It contains commonly used commands that we can access with a single click.
+
+Worksheet Area: The worksheet area is the main area of the Excel interface. It is where we will enter and edit data in cells, create and modify formulas, and format cells and data.
+
+Status Bar: The status bar appears at the bottom of the Excel window and provides information about the current status of the worksheet, such as the current cell mode (e.g., edit mode or formula mode), the sum of selected cells, and other relevant information.
+
+Scroll Bars: The scroll bars appear on the right and bottom sides of the worksheet area and allow we to navigate through the worksheet when it contains more data than can fit on the screen.
+
+These are some of the common elements that we can notice after opening the Excel interface. The exact layout and appearance of the interface may vary depending on the version of Excel we are using and the settings we have configured.
+
+
+
+6. When to use a relative cell reference in excel?
+ans- In general, we should use relative cell references when we want the cell references in our formula to adjust automatically when the formula is copied or moved to a new location. 
+This can save our time and effort, as we do not need to manually update the cell references in our formulas each time we copy or move them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
