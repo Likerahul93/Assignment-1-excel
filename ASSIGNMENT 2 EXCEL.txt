@@ -1,0 +1,138 @@
+1. What does the dollar($) sign do?
+Ans- When we enter a formula in Excel, cell references are relative by default, which means they will adjust when we copy or move the formula to a different cell. 
+For example, if we enter the formula "=A1+B1" in cell C1 and then copy it to cell C2, the formula in C2 will automatically change to "=A2+B2".
+However, if we want to keep a specific cell reference fixed when copying or moving a formula, we can use the dollar sign to make it an absolute reference.
+For example, if we want to add up the values in cells A1 and A2 and always refer to cell A1, we can use the formula "=$A$1+A2". 
+The dollar sign before the column letter and row number (i.e., $A$1) indicates that the reference is absolute and will not change when the formula is copied or moved.
+So in summary, the dollar sign in Excel is used to create absolute references in formulas.
+
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+Ans- To change a cell reference from relative to absolute or mixed, we can either manually add the dollar sign to the reference or use the F4 key. Here's how:
+a)Select the cell reference that we want to change.
+b)Press the F4 key on keyboard. This will toggle the reference between relative, absolute, and mixed references.
+c)Alternatively, we can manually add the dollar sign ($) before the column letter and row number of the cell reference to make it absolute, or before either the column letter or the row number to make it mixed.
+
+Once we've changed the reference type, we can copy or move the formula without changing the reference.
+
+
+3. Explain the order of operations in excel?
+Ans- The order of operations in Excel determines the sequence in which mathematical and logical operations are performed in a formula. 
+Excel uses a specific order of operations to ensure that formulas are calculated correctly.
+The order of operations in Excel is as follows:
+a) Parentheses: Excel always calculates expressions inside parentheses first. If a formula contains nested parentheses, Excel calculates the innermost expression first.
+b)Exponents: Excel performs any exponentiation operations (using the ^ operator) next.
+c)Multiplication and Division: Excel performs multiplication and division operations (using the * and / operators) from left to right.
+d)Addition and Subtraction: Excel performs addition and subtraction operations (using the + and - operators) from left to right.
+
+If two or more operations have the same precedence level (for example, multiplication and division), Excel will perform the operations from left to right.
+It's important to keep the order of operations in mind when writing formulas in Excel, as it can affect the results of our calculations. 
+If we want to change the order of operations in a formula, we can use parentheses to group the operations in the desired order. 
+For example, if we want to add two numbers before multiplying the result by another number, we can use parentheses to group the addition operations together: "(2+3)4" will give we the result of 20, 
+whereas "2+34" will give we the result of 14 (because Excel performs the multiplication before the addition).
+
+
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+Ans- In my opinion, the top 5 functions in Excel are:
+1) SUM: This function is used to add up a range of cells.
+Syntax: =SUM(range)
+2) AVERAGE: This function is used to calculate the average of a range of cells.
+Syntax: =AVERAGE(range)
+3) IF: This function is used to perform a logical test and return one value if the test is true, and another value if the test is false.
+Syntax: =IF(logical_test, value_if_true, value_if_false)
+4) VLOOKUP: This function is used to search for a value in a table and return a corresponding value from a specified column.
+Syntax: =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+5)CONCATENATE: This function is used to combine two or more text strings into one string.
+Syntax: =CONCATENATE(text1, [text2], ...)
+
+Here are the basic syntax for two of the above functions:
+1) SUM: =SUM(range)
+The SUM function takes a range of cells as its argument and returns the sum of the values in that range. The argument can be a single cell reference or a range of cells separated by a colon (:).
+Example: =SUM(A1:A5) adds up the values in cells A1 to A5.
+
+2) IF: =IF(logical_test, value_if_true, value_if_false)
+The IF function takes a logical test as its first argument, followed by the value to return if the test is true, and the value to return if the test is false. 
+The logical test can be any expression that evaluates to either true or false, such as a comparison or a logical operator.
+Example: =IF(A1>10, "Greater than 10", "Less than or equal to 10") checks if the value in cell A1 is greater than 10, and returns "Greater than 10" if it is, or "Less than or equal to 10" if it is not.
+
+
+
+5. When would you use the subtotal function?
+Ans- The SUBTOTAL function is used when we need to perform a calculation on a range of data that is filtered or grouped. 
+When we apply a filter or grouping to a range of data in Excel, the SUBTOTAL function can be used to calculate a subtotal for the visible cells only.
+The advantage of using the SUBTOTAL function over other functions such as SUM or AVERAGE is that it only includes the visible cells in the calculation, 
+so we can get a more accurate subtotal for the filtered or grouped data.
+Here are some situations where we might want to use the SUBTOTAL function:
+
+a) When we need to calculate a subtotal for a range of data that is filtered using the Filter function. 
+The SUBTOTAL function will only include the visible cells in the calculation, ignoring any data that is hidden by the filter.
+b) When we need to calculate a subtotal for a range of data that is grouped using the Group function. 
+The SUBTOTAL function will only include the visible cells in the calculation, ignoring any data that is hidden by the grouping.
+c) When we need to calculate a subtotal for a range of data that is split using the Split function. 
+The SUBTOTAL function will only include the visible cells in the calculation, ignoring any data that is hidden by the split.
+
+The syntax for the SUBTOTAL function is:
+=SUBTOTAL(function_num, range)
+
+Where function_num is the function number that corresponds to the function we want to use (e.g., 1 for AVERAGE, 9 for SUM, etc.) and range is the range of cells that we want to include in the calculation.
+For example, to calculate the subtotal for the visible cells in a range of data that is filtered, we would use the following formula:
+=SUBTOTAL(9, A1:A10)
+This formula will calculate the sum of the visible cells in the range A1:A10, ignoring any data that is hidden by the filter.
+
+
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+Ans- The syntax of the VLOOKUP function in Excel is as follows:
+
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+Here is an explanation of the terms used in the syntax:
+
+lookup_value: This is the value that we want to search for in the first column of the table_array. It can be a cell reference or a value.
+
+table_array: This is the range of cells that contains the data that we want to search in. It should include the lookup_value column and the result column. 
+For example, if we want to search for a name in a table that has names in the first column and corresponding phone numbers in the second column, the table_array would be A1:B10.
+
+col_index_num: This is the column number in the table_array from which we want to return the result. It is a numeric value, where 1 corresponds to the first column in the table_array, 2 corresponds to the second column, and so on.
+
+range_lookup: This is an optional argument that specifies whether we want an exact match or an approximate match. If we set it to TRUE or omit it, Excel will look for an approximate match. If we set it to FALSE, Excel will look for an exact match.
+
+Here is an example of how to use the VLOOKUP function:
+
+Suppose we have a table that contains the names and ages of some people, and we want to look up the age of a person based on their name. Here is how we can do it using the VLOOKUP function:
+
+We can enter the name of the person in a cell, say A2.
+In another cell, we can enter the VLOOKUP function with the following arguments:
+=VLOOKUP(A2, B2:C6, 2, FALSE)
+This function looks for the name in cell A2 in the first column of the table (B2:B6), and returns the corresponding age from the second column of the table (C2:C6).
+We can press Enter to get the result.
+If the name is found in the table, the function will return the corresponding age. If the name is not found, the function will return an error value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
