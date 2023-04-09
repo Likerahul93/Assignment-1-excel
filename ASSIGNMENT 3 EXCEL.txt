@@ -1,0 +1,69 @@
+1. How and when to use the AutoSum command in excel?
+Ans- The AutoSum command in Excel is a convenient tool that can be used to quickly calculate the sum of a range of cells. 
+Here are the steps to use the AutoSum command:
+
+a) Select the cell where you want the sum to appear.
+b) Click the "AutoSum" button on the "Home" tab of the Excel ribbon.
+c) Excel will automatically select a range of cells that it thinks you want to sum. If this is correct, press "Enter" to accept the selection.
+d) If Excel's selection is incorrect, simply click and drag to select the range of cells you want to sum, then press "Enter".
+The AutoSum command is particularly useful when you have a large range of cells to sum, as it saves you the time and effort of manually entering a formula. 
+Additionally, it can be used in combination with other Excel functions to perform more complex calculations.
+
+
+
+2. What is the shortcut key to perform AutoSum?
+Ans- The shortcut key to perform AutoSum in Excel is "Alt + =" (press and hold the Alt key, then press the equals sign key).
+
+
+
+3. How do you get rid of Formula that omits adjacent cells?
+Ans- If a formula in Excel is omitting adjacent cells that we want to include in the calculation, we can adjust the range that the formula is using. Here are the steps:
+
+a) Click on the cell containing the formula that is omitting adjacent cells.
+b) Click on the formula bar at the top of the Excel window to edit the formula.
+c) Look for the range of cells being used in the formula. It will be shown as a comma-separated list of cell references within parentheses.
+   Adjust the range of cells to include the cells that are being omitted. We can do this by typing the cell references directly into the formula, or by clicking and dragging to select the cells we want to include.
+d) Press Enter to save the changes to the formula. The formula will now include the cells that were previously being omitted.
+
+
+
+4. How do you select non-adjacent cells in Excel 2016?
+Ans- To select non-adjacent cells in Excel 2016, follow these steps:
+
+a) Click on the first cell that we want to select.
+b) Hold down the "Ctrl" key on keyboard.
+c) Click on each additional cell that we want to select. We can click on cells that are not adjacent to the first cell that we selected.
+Once we have selected all the cells that we need, release the "Ctrl" key.
+Alternatively, we can use the "Shift" key to select a range of cells that are adjacent to each other. 
+
+Here are the steps:
+a) Click on the first cell in the range that we want to select.
+b) Hold down the "Shift" key on keyboard.
+c) Click on the last cell in the range that you want to select. Excel will select all of the cells in between the first and last cells.
+Release the "Shift" key.
+By using these methods, we can select non-adjacent cells or a range of cells in Excel 2016.
+
+
+
+5. What happens if you choose a column, hold down the Alt key and press the letters
+ocw in quick succession?
+Ans- If we choose a column in Excel and hold down the Alt key while pressing the letters "ocw" in quick succession, it will hide the selected column.
+This is a shortcut key for hiding columns in Excel, and it can be useful for quickly hiding columns that are not needed or for protecting sensitive data. 
+To unhide a hidden column, we can select the columns on either side of the hidden column, right-click, and then select "Unhide" from the context menu.
+Alternatively, we can use the shortcut key "Alt + o + h + u" to unhide the column.
+
+
+
+6. If you right-click on a row reference number and click on Insert, where will the row
+be added?
+Ans- If we right-click on a row reference number in Excel and click on "Insert", a new row will be added above the selected row. 
+For example, if we right-click on row 3 and select "Insert", a new row will be inserted between rows 2 and 3. 
+The existing rows will be shifted down by one row to make room for the new row.
+
+Similarly, if we select multiple row reference numbers before right-clicking and choosing "Insert", then the new row(s) will be added above the first selected row. 
+For instance, if we select rows 2, 3, and 4 and then right-click and choose "Insert", a new row will be inserted above row 2 and the existing rows will shift down by one row to make room for the new row.
+
+
+
+
+
