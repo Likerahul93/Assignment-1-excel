@@ -1,0 +1,90 @@
+1. To use the ribbon commands, what menu and grouping of commands will you
+find the Insert and Delete command?
+Ans- To insert cells, rows, or columns, select the cells we want to insert and then go to the "Home" tab on the ribbon. 
+Look for the "Cells" group and click the "Insert" dropdown to select the type of insertion we want.
+
+To delete cells, rows, or columns, select the cells we want to delete and then go to the "Home" tab. 
+Look for the "Cells" group and click the "Delete" dropdown to select the type of deletion we want.
+
+
+2. If you set a row height or column width to 0 (zero), what happens to the row and
+column?
+Ans- If we set a row height or column width to 0 (zero), the row or column will be hidden from view, effectively making it invisible. 
+However, the data and formatting in the hidden row or column will still be present and can be accessed and edited as usual.
+
+To unhide a hidden row or column, we can select the adjacent rows or columns and then right-click and choose "Unhide" from the context menu. 
+Alternatively, we can use the "Format" option in the Home tab on the ribbon and select "Hide & Unhide" to access the "Unhide Rows" or "Unhide Columns" command.
+
+
+3. Is there a need to change the height and width in a cell? Why?
+Ans- Yes, there can be a need to change the height and width of a cell. 
+
+Fit content: We may want to adjust the height and width of a cell so that its content (such as text or numbers) fits properly within the cell without being cut off or overlapping adjacent cells. This can improve the readability of our data and make your spreadsheet easier to understand.
+
+Aesthetic reasons: Adjusting the height and width of cells can also be done for aesthetic reasons. For example, we may want to make certain columns wider than others to make the data easier to read or to create a more balanced visual appearance.
+
+Print layout: We may also need to adjust the height and width of cells in order to optimize the layout of our spreadsheet for printing. This can help ensure that all data is visible and properly aligned on the printed page.
+
+Overall, adjusting the height and width of cells can help you make your spreadsheet easier to read and more visually appealing, and can also ensure that your data is properly formatted and displayed both on-screen and in print.
+
+
+4. What is the keyboard shortcut to unhide rows?
+Ans- The keyboard shortcut to unhide rows in Microsoft Excel is:
+
+Select the row above and the row below the hidden row(s) that we want to unhide.
+Press and hold the "Shift" key on your keyboard.
+Press the "Ctrl" key on your keyboard.
+Press the "9" key on your keyboard.
+
+
+5. How to hide rows containing blank cells?
+Ans- We can hide rows in Microsoft Excel that contain blank cells by using the "Go To Special" feature and then hiding the selected rows. Here's how:
+
+Select the range of cells that we want to search for blank cells. We can select the entire worksheet by pressing "Ctrl" + "A" on your keyboard.
+Press "Ctrl" + "G" on your keyboard to open the "Go To" dialog box.
+Click on the "Special..." button to open the "Go To Special" dialog box.
+In the "Go To Special" dialog box, select the "Blanks" option and then click "OK". This will select all the blank cells in the range that you previously selected.
+Right-click on any of the selected cells and then select "Hide" from the context menu. This will hide all the rows containing the selected blank cells.
+Alternatively, we can also use the "Filter" feature to hide rows containing blank cells. Here's how:
+
+Select the range of cells that we want to filter.
+Click on the "Filter" button in the "Data" tab on the ribbon.
+Click on the filter arrow in the column that we want to filter.
+In the filter drop-down menu, uncheck the "Blanks" option. This will hide all the rows containing blank cells in that column.
+Repeat this process for any other columns that contain blank cells.
+These methods can be very helpful in keeping your data organized and making it easier to work with, particularly when we have large datasets with many rows and columns.
+
+
+6. What are the steps to hide the duplicate values using conditional formatting in
+excel?
+Ans- We can hide duplicate values in Microsoft Excel using conditional formatting. Here are the steps:
+
+Select the range of cells that we want to check for duplicates.
+Click on the "Conditional Formatting" button in the "Home" tab on the ribbon.
+Select "Highlight Cells Rules" from the drop-down menu and then click on "Duplicate Values".
+In the "Duplicate Values" dialog box, select the formatting options that we want to apply to the duplicate cells. For example, we could choose to highlight the duplicates with a specific color or font style.
+Click "OK" to apply the conditional formatting to the selected cells. All duplicate values in the selected range will now be highlighted according to the formatting options that we specified.
+To hide the duplicate values instead of highlighting them, we can follow these additional steps:
+
+Select the range of cells that we just formatted with the duplicate highlighting.
+Click on the "Conditional Formatting" button in the "Home" tab on the ribbon.
+Select "Manage Rules" from the drop-down menu.
+In the "Conditional Formatting Rules Manager" dialog box, select the rule that we just created and then click on "Edit Rule".
+In the "Edit Formatting Rule" dialog box, select the "Font" tab.
+Check the box next to "Hidden" and then click "OK" to close all of the dialog boxes.
+This will hide all of the duplicate values in the selected range, without deleting or modifying the original data. 
+Note that we can also use the "Remove Duplicates" feature in the "Data" tab on the ribbon to remove duplicate values entirely from our worksheet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
