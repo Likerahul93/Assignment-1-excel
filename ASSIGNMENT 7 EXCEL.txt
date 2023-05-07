@@ -1,0 +1,135 @@
+1. Using Insert Function, give examples of any function available in the
+different dropdowns present in the function library. For example
+AutoSum, Recently Used, Text, Date & Time, etc.
+Ans-  Some examples of functions available in different dropdowns in the function library:
+
+a) AutoSum dropdown:
+SUM: adds up a range of numbers
+AVERAGE: calculates the average of a range of numbers
+COUNT: counts the number of cells in a range that contains numbers
+MAX: returns the largest value in a range of numbers
+MIN: returns the smallest value in a range of numbers
+Recently Used dropdown:
+This dropdown will show the recently used functions and it varies based on individual usage.
+
+b) Text dropdown:
+CONCATENATE: joins two or more text strings into one
+LEFT: extracts a specified number of characters from the beginning of a text string
+RIGHT: extracts a specified number of characters from the end of a text string
+MID: extracts a specific number of characters from a text string, starting at a specific position
+
+c)Date & Time dropdown:
+TODAY: returns the current date
+NOW: returns the current date and time
+DATE: returns the serial number of a particular date
+YEAR: extracts the year from a date
+MONTH: extracts the month from a date
+DAY: extracts the day of the month from a date
+These are just a few examples of the many functions available in the function library.
+
+
+
+2. What are the different ways you can select columns and rows?
+Ans- some different ways to select columns and rows in Microsoft Excel:
+Selecting a single cell:
+Click on the cell that you want to select.
+
+Selecting a range of cells:
+Click on the first cell in the range, then drag the cursor to the last cell in the range. All the cells in the range will be selected.
+
+Selecting a column:
+Click on the column header (the letter at the top of the column). The entire column will be selected.
+
+Selecting a row:
+Click on the row header (the number on the left side of the row). The entire row will be selected.
+
+Selecting multiple columns or rows:
+To select multiple columns or rows, click on the first column or row you want to select, then hold down the "Ctrl" key and click on the other columns or rows you want to select.
+
+Selecting all columns or rows:
+To select all columns or rows in a sheet, click on the column or row header at the top or left of the sheet. For example, clicking on the "A" column header selects all columns, and clicking on the "1" row header selects all rows.
+
+Using the Name box:
+Type the cell range you want to select into the Name box, which is located to the left of the formula bar. For example, typing "A1:D10" into the Name box will select the range from cell A1 to D10.
+
+These are some of the different ways you can select columns and rows in Excel.
+
+
+
+3. What is AutoFit and why do we use it?
+Ans- AutoFit is a feature in Microsoft Excel that allows you to automatically adjust the width of a column or the height of a row to fit the contents of the cells within that column or row. When you use AutoFit, Excel will adjust the column width or row height to the optimal size based on the size of the largest cell contents within that column or row.
+
+We use AutoFit to ensure that the contents of the cells are fully visible without having to manually adjust the column width or row height. This can be particularly useful when working with large datasets or when you have a lot of content in a single cell.
+
+For example, if you have a column that contains a lot of text or numbers that are cut off, you can use AutoFit to adjust the column width so that all the content is visible. Similarly, if you have a row that contains a lot of content, such as when working with wrapped text or merged cells, you can use AutoFit to adjust the row height to fit all the content.
+
+To use AutoFit in Excel, simply select the column or row you want to adjust, then double-click the right boundary of the column header or the bottom boundary of the row header. Alternatively, you can right-click on the column or row and select "AutoFit Column Width" or "AutoFit Row Height" from the context menu.
+
+
+
+4. How can you insert new rows and columns into the existing table?
+Ans- Inserting a new row:
+Select the row below where you want to insert the new row.
+Right-click on the selected row and click "Insert" from the context menu, or go to the "Home" tab, click "Insert" in the Cells group, and then click "Insert Sheet Rows".
+A new row will be inserted above the selected row.
+
+Inserting a new column:
+Select the column to the right of where you want to insert the new column.
+Right-click on the selected column and click "Insert" from the context menu, or go to the "Home" tab, click "Insert" in the Cells group, and then click "Insert Sheet Columns".
+A new column will be inserted to the left of the selected column.
+
+
+
+5. How do you hide and unhide columns in excel?
+Ans- Hiding a column:
+Select the column or columns that you want to hide.
+Right-click on the selected column or columns and click "Hide" from the context menu, or go to the "Home" tab, click "Format" in the Cells group, and then click "Hide & Unhide" > "Hide Columns".
+The selected column or columns will be hidden from view, but the data in the hidden columns will remain in the worksheet.
+
+Unhiding a column:
+Select the columns to the left and right of the hidden column or columns.
+Right-click on the selected columns and click "Unhide" from the context menu, or go to the "Home" tab, click "Format" in the Cells group, and then click "Hide & Unhide" > "Unhide Columns".
+The hidden column or columns will be unhidden and will become visible in the worksheet.
+
+We can also use keyboard shortcuts to hide and unhide columns. To hide a column, select the column or columns you want to hide, then press "Ctrl" + "0". To unhide a column, select the columns to the left and right of the hidden column or columns, then press "Ctrl" + "Shift" + "0".
+
+
+
+6. Create an appropriate table within the worksheet and use different
+functions available in the AutoSum command.
+Ans- 
+Item	Price	Quantity
+Apple	0.75	10
+Banana	1	5
+Orange	1.2	8
+Pineapple 3.5	2
+Total Sum	25
+	
+To use different functions available in the AutoSum command, we can follow these steps:
+
+Select the cell where you want to display the result of the function. For example, in the "Total" column, we can select the first empty cell under the "Total" header, which is cell D2.
+Go to the "Home" tab and click on the "AutoSum" button in the "Editing" group. A drop-down menu will appear with different functions.
+
+Select the appropriate function from the drop-down menu. For example, we can select "SUM" to add up the total cost of each item.
+
+Press "Enter" to apply the function to the selected cell. The result will be displayed in the cell.
+
+Copy the formula down to the rest of the cells in the "Total" column by clicking and dragging the small square in the bottom right corner of the cell down to the end of the table. This will apply the formula to the rest of the cells in the column.
+
+Some other functions available in the AutoSum command include "AVERAGE", "MAX", "MIN", and "COUNT". These functions can be used to calculate the average, maximum, minimum, or count of a range of cells, respectively.
+To use these functions, simply select the appropriate function from the drop-down menu and apply it to the desired cell or range of cells.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
